@@ -1,0 +1,11 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#sortable1, #sortable2, #sortable3 { list-style-type: none; margin: 0; padding: 0 0 2.5em; float: left; margin-right: 10px; }
+#sortable1 li, #sortable2 li, #sortable3 li { margin: 0 5px 5px 5px; padding: 5px; font-size: 1.2em; width: 120px; }
+#sortable1 {background-color: gray; overflow:hidden;}
+#sortable2 {background-color: green; overflow:hidden;}
+#sortable3 {background-color: orange; overflow:hidden;}
+#resizable { background-position: top left; }
+#resizable, #sortable1, #sortable2, #sortable3 { width: 150px; height: 400px; padding: 0.5em; }
+#resizable h3, #sortable1 h3, #sortable2 h3, #sortable3 h3 { text-align: center; margin: 0; }
